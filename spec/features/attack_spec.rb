@@ -9,7 +9,7 @@ feature 'Attacking' do
     sign_in_and_play
     click_button 'Attack'
     #expect(page).not_to have_content 'Player 2: 60HP'
-    expect(page).to have_content 'Player 2: 50HP'
+    expect(page).to have_content 'Player 2: 50 HP'
   
   end
 end 
